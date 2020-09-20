@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int i,array[5];
+	cout<<"Enter the elements:";
+	for(i=0;i<5;i++)
+	{
+		cin>>array[i];
+	}
+	cout<<"\nYou entered:";
+	for(i=0;i<5;i++)
+	{
+		cout<<*(array+i)<<"\n";
+	}
+	
+	return 0;
+}
